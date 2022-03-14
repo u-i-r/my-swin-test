@@ -57,6 +57,8 @@ def main():
 
 		for idx, (data, target) in enumerate(train_loader):
 			data, target = Variable(data), Variable(target)
+			data = data.to(device)
+			target = target.to(device)
 			optimizer.zero_grad()
 			output = model(data)
 			loss = criterion(output, target)
