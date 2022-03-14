@@ -9,8 +9,8 @@ from swin_transformer_pytorch import SwinTransformer
 import time
 
 def main():
-	train_path = "data/imagenet/train"
-	val_path = "data/imagenet/val"
+	train_path = "my-swin-gpu/data/imagenet/train"
+	val_path = "my-swin-gpu/data/imagenet/val"
 	batch_size = 16
 	num_workers = 1
 	lr = 0.002
