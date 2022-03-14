@@ -11,7 +11,7 @@ import time
 def main():
 	train_path = "my-swin-gpu/data/imagenet/train"
 	val_path = "my-swin-gpu/data/imagenet/val"
-	batch_size = 16
+	batch_size = 48
 	num_workers = 1
 	lr = 0.002
 	momentum = 0.9
